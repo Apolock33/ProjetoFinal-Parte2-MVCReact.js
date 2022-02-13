@@ -1,0 +1,52 @@
+@font-face{
+    font-family:'organo';
+    src:url('../../assets/Font/Organo.ttf');
+}
+
+
+
+.logofooter{
+    min-width: 110px;
+}
+
+.logofooter{
+    max-width: 110px;
+    margin: 0px 50px;
+    padding: 100px 0;
+}
+
+.fundofooter{
+    background:#313131;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesociais{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content:center;
+    color:#fff;
+}
+
+.titulofooter{
+    font-family: 'organo';
+    color: #36a9e1;
+}
+.fale-con{
+    max-width: 300px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: thin;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content:center;
+    margin-right:50px ;
+    color: #fff;
+}
+
+h5 Link{
+    margin:0 20px;
+}

@@ -1,0 +1,6 @@
+﻿.HomePage {
+    background-image:url('../../Assets/Img/img-home.jpg');
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
