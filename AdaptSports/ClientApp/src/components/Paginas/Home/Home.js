@@ -8,7 +8,7 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <img className='HomePage' src='~/../Assets/Img/img-home.jpg' alt='homeimg' />
+
             </div>
         );
     }
