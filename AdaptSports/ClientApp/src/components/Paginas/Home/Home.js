@@ -37,15 +37,15 @@ export class Home extends Component {
                     </div>
                     <div className='Cards'>
                         <Card
-                            image={ImgCard1}
+                            img={ImgCard1}
                         />
 
                         <Card
-                            image={ImgCard1}
+                            img={ImgCard1}
                         />
-                        
+
                         <Card
-                            image={ImgCard1}
+                            img={ImgCard1}
                         />
                     </div>
                 </section>

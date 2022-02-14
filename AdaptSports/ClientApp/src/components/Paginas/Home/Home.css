@@ -59,6 +59,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 .Divisor {
   display: flex;
@@ -72,7 +73,10 @@
   color: #fff;
   font-family: "organo";
 }
-
+.Cards {
+  display: flex;
+  flex-direction: row;
+}
 .tituloCard {
   display: flex;
   flex-direction: row;

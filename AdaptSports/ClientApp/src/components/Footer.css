@@ -25,7 +25,7 @@
 .fale-con {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 500px;
   margin-right: 30px;
   color: #fff;
 }
