@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './Home.css';
 import Footer from '../../Footer'
 import Card from '../../Card/Card';
-import ImgCard1 from '../../Assets/Img/deficiente-visual.jpg'
+import ImgCard1 from '../../Assets/Img/deficiente-basquete.jpg'
+import ImgCard2 from '../../Assets/Img/basquete-deficientes.jpg'
+import ImgCard3 from '../../Assets/Img/deficiente-lider-de-torcida.jpg'
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -37,15 +39,18 @@ export class Home extends Component {
                     </div>
                     <div className='Cards'>
                         <Card
-                            image={ImgCard1}
+                            className='CardHome'
+                            img={ImgCard1}
                         />
 
                         <Card
-                            image={ImgCard1}
+                            className='CardHome'
+                            img={ImgCard2}
                         />
-                        
+
                         <Card
-                            image={ImgCard1}
+                            className='CardHome'
+                            img={ImgCard3}
                         />
                     </div>
                 </section>

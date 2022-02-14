@@ -59,11 +59,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 .Divisor {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  align-content: center;
   background: linear-gradient(to right, #36a9e1, #00d154);
   border-radius: 5px;
   width: 1100px;
@@ -72,7 +75,14 @@
   color: #fff;
   font-family: "organo";
 }
-
+.Cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom:100px;
+}
+.CardHome{
+  width: 300px;
+}
 .tituloCard {
   display: flex;
   flex-direction: row;
