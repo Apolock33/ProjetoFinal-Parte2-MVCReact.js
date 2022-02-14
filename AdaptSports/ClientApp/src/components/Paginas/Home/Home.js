@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import './Home.css';
 import Footer from '../../Footer'
-
-
+import Card from '../../Card/Card';
+import ImgCard1 from '../../Assets/Img/deficiente-visual.jpg'
+import ImgCard2 from '../../Assets/Img/deficiente-visual.jpg'
+import ImgCard3 from '../../Assets/Img/deficiente-visual.jpg'
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -30,12 +33,13 @@ export class Home extends Component {
                     <div className='Divisor'>
                         <h1>Noticias</h1>
                     </div>
-                    <section>
-                        
-                    </section>
+                    <Card
+                        image={ImgCard1}
+                    />
+                    
                 </section>
                 <footer>
-                    <Footer/>
+                    <Footer />
                 </footer>
             </div>
         );

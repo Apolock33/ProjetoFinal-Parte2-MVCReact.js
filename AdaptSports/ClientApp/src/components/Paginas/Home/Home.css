@@ -73,4 +73,39 @@
   font-family: "organo";
 }
 
+.tituloCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.tituloCard h4{
+    margin:0 80px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  
+}
+.button button {
+  margin: 30px 90px;
+  background: linear-gradient(to right, #36a9e1, #00d154);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "organo";
+
+}
+.button button:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.linkbutton{
+  text-decoration: none;
+  color: #fff;
+}
+.linkbutton:hover{
+  color: #000;
+}
