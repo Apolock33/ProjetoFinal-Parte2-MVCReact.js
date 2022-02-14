@@ -4,6 +4,16 @@
   word-break: break-all;
 }
 
+.textoNav {
+  font-family: "organo";
+  color: #36a9e1;
+  font-size: 20px;
+}
+
+.textoNav:hover {
+  color: #00d154;
+}
+
 html {
   font-size: 14px;
 }
@@ -13,6 +23,10 @@ html {
   }
 }
 
+.LogoHeader {
+  width: 90px;
+}
+
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }

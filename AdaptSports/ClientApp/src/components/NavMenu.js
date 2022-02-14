@@ -3,6 +3,7 @@ import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLi
 import { Link } from 'react-router-dom';
 import { LoginMenu } from './api-authorization/LoginMenu';
 import './NavMenu.css';
+import Logo from './Assets/Logo/logo azul.svg';
 
 export class NavMenu extends Component {
   static displayName = NavMenu.name;
@@ -25,17 +26,23 @@ export class NavMenu extends Component {
   render () {
     return (
       <header>
-        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
+        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3">
           <Container>
-            <NavbarBrand tag={Link} to="/">AdaptSports</NavbarBrand>
+            <NavbarBrand tag={Link} to="/"><img className="LogoHeader" src={Logo} /></NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+                  <NavLink tag={Link} className="textoNav" to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                  <NavLink tag={Link} className="textoNav" to="/SobreNos">Sobre Nos</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="textoNav" to="/Locais">Locais</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="textoNav" to="/Esportes">Esportes</NavLink>
                 </NavItem>
                 <LoginMenu>
                 </LoginMenu>
