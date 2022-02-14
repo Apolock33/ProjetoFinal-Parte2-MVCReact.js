@@ -89,9 +89,10 @@
 }
 
 .card .info .ButtonCard {
+  border-radius: 5px;
   font-family: "organo";
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   background: #fff;
   color: #000;
   font-size: 14px;

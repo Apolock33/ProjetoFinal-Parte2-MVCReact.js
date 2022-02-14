@@ -10,9 +10,9 @@ export default function Card(props) {
             <div className="card">
                 <img src={props.img} alt='CardImage' />
                 <div className="info">
-                    <h1>{props.titulo}</h1>
+                    <h  >{props.titulo}</h>
                     <p>{props.texto}</p>
-                    <Link to='/' className="ButtonCard">Saiba Mais</Link>
+                    <Link to={props.link} className="ButtonCard">Saiba Mais</Link>
                 </div>
             </div>
             </div>
