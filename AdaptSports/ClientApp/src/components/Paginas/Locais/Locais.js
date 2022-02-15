@@ -16,9 +16,9 @@ export default class Locais extends Component {
                         img2={ImgCard2}
                         img3={ImgCard3}
                     />
-                    
-                        <h1>Descubra!</h1>
-                        <p>Aqui você encontra informações como: endereço, equipes, esportes disponiveis e muito mais. Tudo isso para praticar esporte adaptado com o maximo de conforto, informação e facilidade possiveis</p>
+
+                    <h1>Descubra!</h1>
+                    <p>Aqui você encontra informações como: endereço, equipes, esportes disponiveis e muito mais. Tudo isso para praticar esporte adaptado com o maximo de conforto, informação e facilidade possiveis</p>
                 </div>
 
                 <div className='Divisor'>
@@ -42,7 +42,7 @@ export default class Locais extends Component {
                         img={ImgCard3}
                     />
                 </div>
-                
+
                 <footer>
                     <Footer />
                 </footer>
