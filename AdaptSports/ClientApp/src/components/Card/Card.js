@@ -1,7 +1,6 @@
 import React from 'react';
 import './Card.css'
 import { Link } from 'react-router-dom';
-import imgCard from '../Assets/Img/b3.jpg'
 
 export default function Card(props) {
     return (
