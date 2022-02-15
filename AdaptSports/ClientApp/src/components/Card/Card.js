@@ -7,7 +7,7 @@ export default function Card(props) {
         <body className='body'>
         <div className="wrapper">
             <div className="card">
-                <img src={props.img} alt='CardImage' />
+                <img src={props.img} alt='CardImage'/>
                 <div className="info">
                     <h  >{props.titulo}</h>
                     <p>{props.texto}</p>
