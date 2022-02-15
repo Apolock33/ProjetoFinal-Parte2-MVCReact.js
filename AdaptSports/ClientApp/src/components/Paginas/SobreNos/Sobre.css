@@ -1,0 +1,61 @@
+p {
+    text-align: justify;
+}
+
+.principal {
+    padding: 30px;   
+}
+
+section {
+    
+    margin: 30px;
+}
+
+.text h2 {
+    font-family: 'organo';
+}
+
+.text p {
+    font-family: Montserrat, sans-serif;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textDir {
+    color: #36a9e1 !important;
+}
+
+.textDir p {
+    max-width: 650px;
+    
+}
+
+.textEsq {
+    text-align: end;
+    color: #00d154 !important;
+}
+
+.textEsq p {
+    max-width: 750px;
+}
+
+.como {
+    max-width: 750px;
+    color: #36a9e1;
+}
+
+.squad {
+    font-family: 'organo';
+    text-align: center;
+    color: #36a9e1;
+}
+
+.car {
+    margin: 50px 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
