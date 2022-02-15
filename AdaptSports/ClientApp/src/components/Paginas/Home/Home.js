@@ -57,7 +57,6 @@ export class Home extends Component {
                         />
                     </div>
                 </section>
-
                 <footer>
                     <Footer />
                 </footer>

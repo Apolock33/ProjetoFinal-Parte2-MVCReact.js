@@ -11,7 +11,6 @@ namespace AdaptSports.Data
         public ApplicationDbContext(DbContextOptions options, IOptions<OperationalStoreOptions> operationalStoreOptions)
             : base(options, operationalStoreOptions)
         {
-
         }
     }
 }
