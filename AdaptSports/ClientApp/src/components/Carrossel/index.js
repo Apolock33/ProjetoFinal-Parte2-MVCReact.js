@@ -7,13 +7,13 @@ export default function Carrossel(props) {
          <section id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
              <div className="carousel-inner">
                  <div className="carousel-item active">
-                     <img className='img' src={props.img1} className="d-block w-100" alt='img1' />
+                     <img src={props.img1} className="d-block w-100 img" alt='img1' />
                  </div>
                  <div className="carousel-item">
-                     <img className='img' src={props.img2} className="d-block w-100" alt='img2' />
+                     <img src={props.img2} className="d-block w-100 img" alt='img2' />
                  </div>
                  <div className="carousel-item">
-                     <img className='img1' src={props.img3} className="d-block w-100" alt='img3' />
+                     <img src={props.img3} className="d-block w-100 img" alt='img3' />
                  </div>
              </div>
              <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

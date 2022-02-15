@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ImgCard1 from '../../Assets/Img/deficiente-basquete.jpg'
 import ImgCard2 from '../../Assets/Img/basquete-deficientes.jpg'
 import ImgCard3 from '../../Assets/Img/deficiente-lider-de-torcida.jpg'
-import Card from '../../Card/Card'
+import Card from '../../CardLocais/Card'
 import Footer from '../../Footer'
 import Carrossel from '../../Carrossel'
 
