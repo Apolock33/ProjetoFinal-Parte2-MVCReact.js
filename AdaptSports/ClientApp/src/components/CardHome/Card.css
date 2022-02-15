@@ -118,7 +118,3 @@
 .card .info .ButtonCard:hover {
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
-
-.info h1 {
-  font-size: 15px;
-}
