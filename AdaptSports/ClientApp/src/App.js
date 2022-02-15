@@ -4,7 +4,6 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Paginas/Home/Home';
 import { FetchData } from './components/Paginas/Esportes/FetchData';
 import { Counter } from './components/Paginas/SobreNos/Counter';
-import AuthorizeRoute from './components/api-authorization/AuthorizeRoute';
 import ApiAuthorizationRoutes from './components/api-authorization/ApiAuthorizationRoutes';
 import { ApplicationPaths } from './components/api-authorization/ApiAuthorizationConstants';
 import Locais from './components/Paginas/Locais/Locais.js'
