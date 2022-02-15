@@ -1,46 +1,90 @@
 body {
-    text-align: justify;
+  text-align: justify;
 }
 .titulo {
-    margin: 10px;
-    border: 1px solid black;
+  margin: 10px;
+  border: 1px solid black;
 }
 .container {
-    max-width: 100%;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 50px;
-    justify-content: center;
+  max-width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  justify-content: center;
 }
 
-.esp {
-    max-width: 400px;
+.Carrossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Carrossel h1 {
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+}
+.Carrossel p {
+    position: absolute;
+    top: 450px;
+    z-index: 1;
+    max-width: 500px;
+    color: #36a9e1;
     text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.425);
+    font-family: Montserrat, sans-serif;
+}
+
+.Carrossel h1{
+    font-family: 'organo';
+    color: #36a9e1;
+}
+
+
+.esp {
+  max-width: 400px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.425);
 }
 
 .esp:hover {
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-    transition-timing-function: ease-in-out;
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+  transition-timing-function: ease-in-out;
 }
-
+.tituloEsporte {
+  font-family: "organo";
+  color: rgba(0, 209, 84, 1);
+  font-size: 20px;
+}
 .botao {
-    border: 0;
-    padding: 10px;
-    background-color: rgba(50, 238, 50, 0.733);
-    border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(54, 169, 225, 1),
+    rgba(0, 209, 84, 1)
+  );
+  border-radius: 5px;
+  color: white;
+  font-family: "organo";
+}
+.botao:hover {
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.425);
+  cursor: pointer;
 }
 
-.esportes p {
-    margin: 10px;
+.esp p {
+  margin: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: medium;
+  color:#000;
 }
 
 @media (max-width: 850px) {
-    .container {
-        grid-template-columns: auto;
-    }
+  .container {
+    grid-template-columns: auto;
+  }
 }

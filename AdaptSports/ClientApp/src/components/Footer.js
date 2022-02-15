@@ -28,8 +28,10 @@ export default class Footer extends Component {
 
                 <div className='fale-con'>
                     <h3 className='titulofooter'>Fale Conosco</h3>
-                    <h6>E-mail para contato: Squad12@gmail.com<br /><br />
-                        Críticas, denúncias e reclamações: Squad12@gmail.com<br /><br />
+                    <h6>E-mail para contato:<br/>
+                        Squad12@gmail.com<br /><br />
+                        Críticas, denúncias e reclamações:<br/>
+                        Squad12@gmail.com<br /><br />
                         Horário de Atendimento:<br />
                         Seg à sexta: 11:00 às 16h;<br />
                         Sábado: das 14:00 às 19hs;</h6>
