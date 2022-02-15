@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import authService from '../../api-authorization/AuthorizeService'
 import './esporte.css';
 import Footer from '../../Footer'
 import ImgBasquete from '../../Assets/Img/BasqueteAdaptado.jpg'
@@ -10,7 +9,6 @@ import ImgEsgrima from '../../Assets/Img/esgrimaAdaptada.jpg'
 import ImgFutebol5 from '../../Assets/Img/futebol5Adaptado.jpg'
 import ImgGoalboll from '../../Assets/Img/goalballAdaptado.jpg'
 import ImgAtletismo from '../../Assets/Img/atletismoAdaptado.jpg'
-import { Container } from 'reactstrap';
 
 
 export class FetchData extends Component {
@@ -18,12 +16,12 @@ export class FetchData extends Component {
 
     render() {
         return (
-            <Container>
+            <>
                 <main class="container">
 
                     <section class="esp">
                         <div>
-                            <img className='card-img-top' src={ImgBadminton} alt='badminton'/>
+                            <img className='card-img-top' src={ImgBadminton} alt='badminton' />
                         </div>
                         <h6 className='tituloEsporte'>Badminton</h6>
                         <p>Uma das duas modalidades estreantes na Paralimpíada, o parabadminton é disputado por atletas que utilizam uma raquete para golpear uma peteca na quadra dos adversários. As partidas são disputadas em uma melhor de três sets, com pontuação mínima de 21. Para vencer a parcial é necessária uma vantagem de, no mínimo, dois pontos até chegar à pontuação máxima de 30.
@@ -33,7 +31,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            <img className='card-img-top' src={ImgBasquete} alt='basquete'/>
+                            <img className='card-img-top' src={ImgBasquete} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Basquete</h6>
                         <p>Praticado inicialmente por ex-soldados americanos que haviam participado da Segunda Guerra Mundial, o basquete em cadeira de rodas fez parte de todas as edições já realizadas dos Jogos Paralímpicos.
@@ -105,7 +103,7 @@ export class FetchData extends Component {
                 <footer>
                     <Footer />
                 </footer>
-            </Container>
+            </>
         );
     }
 }

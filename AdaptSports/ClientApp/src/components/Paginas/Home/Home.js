@@ -22,10 +22,10 @@ export class Home extends Component {
                 </section>
 
                 <section className='TextoMaeHome'>
-                    <div className='Titulo1Home'>
+                    <div className='Titulo2Home'>
                         <h1>Descubra Mais!</h1>
                     </div>
-                    <p className='Texto1Home'>
+                    <p className='Texto2Home'>
                         Aqui você tambem pode ficar informado das noticias mais atuais no mundo do esporte paraolimpico e adaptado. Visite nossa sessão de noticias para saber os mais recentes acontecimentos. Você também pode conferir nosso rodapé. Lá se encontram os horários de atendimento que nosso site possui, e clicando nos simbolos você pode acessar nossas redes sociais e saber mais sobre nossa iniciativa e melhorias que pretendemos fazer.
                     </p>
                 </section>
