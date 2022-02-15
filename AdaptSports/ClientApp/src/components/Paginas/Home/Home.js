@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Footer from '../../Footer'
-import Card from '../../Card/Card';
-import ImgCard1 from '../../Assets/Img/deficiente-basquete.jpg'
-import ImgCard2 from '../../Assets/Img/basquete-deficientes.jpg'
-import ImgCard3 from '../../Assets/Img/deficiente-lider-de-torcida.jpg'
+import Card from '../../CardHome/Card';
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -40,17 +37,23 @@ export class Home extends Component {
                     <div className='Cards'>
                         <Card
                             className='CardHome'
-                            img={ImgCard1}
+                            titulo='Pratica de esportes e aliada de pessoas com deficiencia'
+                            link='https://www.gaz.com.br/pratica-de-esportes-e-aliada-de-pessoas-com-deficiencia/'
+                            img='https://www.gaz.com.br/packages/uploads/2021/09/Basquete-cadeira-de-rodas-pessoa-com-deficiencia-2.jpg'
                         />
 
                         <Card
                             className='CardHome'
-                            img={ImgCard2}
+                            titulo='Escola e meio de criancas conhecerem esporte, diz campeao paralimpico'
+                            img='https://imagens.ebc.com.br/yjzt6Pd59HdOTujxnOVFqVxYmyA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/005_1.jpg?itok=IT3RLnH2'
+                            link='https://agenciabrasil.ebc.com.br/geral/noticia/2021-09/escola-e-meio-de-criancas-conhecerem-esporte-diz-campeao-paralimpico#'
                         />
 
                         <Card
                             className='CardHome'
-                            img={ImgCard3}
+                            titulo='Penalty apoia inclusao de deficientes visuais com nova camisa do Magnus Futsal'
+                            img='https://maquinadoesporte.com.br/media/_versions/magnus_futsal_widelg.jpeg'
+                            link='https://maquinadoesporte.com.br/outros/penalty-lanca-camisa-para-apoiar-inclusao-de-deficientes-visuais'
                         />
                     </div>
                 </section>

@@ -2,18 +2,28 @@ import React, { Component } from 'react';
 import authService from '../../api-authorization/AuthorizeService'
 import './esporte.css';
 import Footer from '../../Footer'
+import ImgBasquete from '../../Assets/Img/BasqueteAdaptado.jpg'
+import ImgBadminton from '../../Assets/Img/BadmintonAdaptado.jpg'
+import ImgCanoagem from '../../Assets/Img/canoagem_adaptada.jpg'
+import ImgCiclismo from '../../Assets/Img/ciclismoAdaptado.jpg'
+import ImgEsgrima from '../../Assets/Img/esgrimaAdaptada.jpg'
+import ImgFutebol5 from '../../Assets/Img/futebol5Adaptado.jpg'
+import ImgGoalboll from '../../Assets/Img/goalballAdaptado.jpg'
+import ImgAtletismo from '../../Assets/Img/atletismoAdaptado.jpg'
+import { Container } from 'reactstrap';
+
 
 export class FetchData extends Component {
     static displayName = FetchData.name;
 
     render() {
         return (
-            <>
+            <Container>
                 <main class="container">
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgBadminton} alt='badminton'/>
                         </div>
                         <h6 className='tituloEsporte'>Badminton</h6>
                         <p>Uma das duas modalidades estreantes na Paralimpíada, o parabadminton é disputado por atletas que utilizam uma raquete para golpear uma peteca na quadra dos adversários. As partidas são disputadas em uma melhor de três sets, com pontuação mínima de 21. Para vencer a parcial é necessária uma vantagem de, no mínimo, dois pontos até chegar à pontuação máxima de 30.
@@ -23,7 +33,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgBasquete} alt='basquete'/>
                         </div>
                         <h6 className='tituloEsporte'>Basquete</h6>
                         <p>Praticado inicialmente por ex-soldados americanos que haviam participado da Segunda Guerra Mundial, o basquete em cadeira de rodas fez parte de todas as edições já realizadas dos Jogos Paralímpicos.
@@ -33,7 +43,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgCanoagem} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Canoagem</h6>
                         <p>Esporte que estreou no programa paralímpico no Rio 2016, a canoagem é disputado por atletas com deficiência físico-motora dos dois sexos. A canoagem paralímpica possui provas divididas de acordo com o grau de deficiência de cada atleta em KL1, KL2 e KL3, do maior grau de comprometimento para o menor.
@@ -43,7 +53,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgCiclismo} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Ciclismo</h6>
                         <p>Tradicional na competição, o ciclismo paralímpico é disputado em provas de pista no velódromo e de estrada e tem algumas diferenças do ciclismo olímpico. Os atletas são divididos em classes. As bicicletas são adaptadas conforme deficiência do atleta.</p>
@@ -52,7 +62,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgEsgrima} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Esgrima</h6>
                         <p>Assim como na esgrima, na modalidade adaptada as provas são com espada, sabre e florete, e o objetivo é o mesmo: vence que faz mais pontos a cada toque da ponta da arma no tronco do adversário.
@@ -62,7 +72,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgFutebol5} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Futebol de 5</h6>
                         <p>A Modalidade é exclusiva para cegos ou deficientes visuais. Os atletas disputam a partida vendados e se guiam pelo barulho da bola e por um guia que sinaliza com som onde fica o gol adversário. Cada time é formado por cinco jogadores – um goleiro e quatro na linha. O goleiro tem visão total e não pode ter participado de competições oficiais da Fifa nos últimos cinco anos.
@@ -73,7 +83,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgGoalboll} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Goalball</h6>
                         <p>O goalball é a única modalidade entre as 22 que integram a Paralimpíada de Tóquio que não é uma adaptação de um esporte olímpico. Ela foi criada logo após a Segunda Guerra Mundial pelo alemão Sepp Reindle e pelo austríaco Hanz Lorezen, para reabilitar veteranos que perderam a visão durante os combates. O esporte é voltado para cegos e pessoas com deficiência visual.
@@ -83,7 +93,7 @@ export class FetchData extends Component {
 
                     <section class="esp">
                         <div>
-                            IMAGEM
+                            <img className='card-img-top' src={ImgAtletismo} alt='basquete' />
                         </div>
                         <h6 className='tituloEsporte'>Atletismo</h6>
                         <p>Nos Jogos Paralímpicos, o atletismo tem provas de corrida, saltos, lançamentos e arremessos. Elas são disputadas por atletas com deﬁciência física, visual ou intelectual. Os atletas são divididos de acordo com funcionalidade na prática esportiva</p>
@@ -95,16 +105,7 @@ export class FetchData extends Component {
                 <footer>
                     <Footer />
                 </footer>
-            </>
+            </Container>
         );
-    }
-
-    async populateWeatherData() {
-        const token = await authService.getAccessToken();
-        const response = await fetch('weatherforecast', {
-            headers: !token ? {} : { 'Authorization': `Bearer ${token}` }
-        });
-        const data = await response.json();
-        this.setState({ forecasts: data, loading: false });
     }
 }
