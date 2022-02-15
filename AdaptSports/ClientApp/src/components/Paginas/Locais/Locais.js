@@ -28,6 +28,7 @@ export default class Locais extends Component {
                 <div className='Cards'>
                     <Card
                         className='CardHome'
+                        titulo='ADD - Associacao desportiva para deficientes'
                         img={ImgCard1}
                     />
 
@@ -41,26 +42,11 @@ export default class Locais extends Component {
                         img={ImgCard3}
                     />
                 </div>
-                <div className='Cards'>
-                    <Card
-                        className='CardHome'
-                        img={ImgCard1}
-                    />
-
-                    <Card
-                        className='CardHome'
-                        img={ImgCard2}
-                    />
-
-                    <Card
-                        className='CardHome'
-                        img={ImgCard3}
-                    />
-                </div>
+                
                 <footer>
                     <Footer />
                 </footer>
-            </div >
+            </div>
         );
     }
 }
