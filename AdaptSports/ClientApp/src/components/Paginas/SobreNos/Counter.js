@@ -1,7 +1,20 @@
-import React, { Component } from 'react';
-import './Sobre.css';
 import Card from '../../CardHome/Card';
 import Footer from '../../Footer';
+import React, { Component } from 'react';
+
+import ImgCarlos from '../../Assets/Img/carlos.jpeg';
+import ImgTati from '../../Assets/Img/tati.jpeg';
+import ImgEmanuel from '../../Assets/Img/emanuel].jpeg'
+import ImgErica from '../../Assets/Img/erica.jpeg'
+import ImgPatrick from '../../Assets/Img/patrick].jpeg'
+import ImgVictor from '../../Assets/Img/victor.jpeg'
+import Img1 from '../../Assets/Img/Ativo 1.svg'
+import Img2 from '../../Assets/Img/ativo4.svg'
+import Img3 from '../../Assets/Img/img 1.svg'
+import Img4 from '../../Assets/Img/img 2.svg'
+import Img5 from '../../Assets/Img/img4.svg'
+import './Sobre.css';
+
 
 
 export class Counter extends Component {
@@ -10,22 +23,22 @@ export class Counter extends Component {
   render() {
     return (
       <div>
-        <div class="principal">
-          <section class="text">
-            <div class="textDir">
-              <h2>Pra quem?</h2>
+        <div className="principal">
+          <section className="text">
+            <div className="textDir">
+              <h2>Para quem?</h2>
               <p>O site é direcionado para Pessoas Com Deficiência interessadas na prática de atividades físicas e esportivas.</p>
             </div>
             <div>
-              IMAGEM
+              <img className="imgSobre" src={Img1}/>
             </div>
           </section>
 
-          <section class="text">
+          <section className="text">
             <div>
-              IMAGEM
+            <img className="imgSobre" src={Img2}/>
             </div>
-            <div class="textEsq">
+            <div className="textEsq">
               <h2>O que e uma deficiencia?</h2>
               <p>A deficiência é uma limitação física, intelectual, visual ou auditiva que dificulta a realização de atividades, em
                 comparação com pessoas sem deficiência.
@@ -35,24 +48,24 @@ export class Counter extends Component {
             </div>
           </section>
 
-          <section class="text">
-            <div class="textDir">
+          <section className="text">
+            <div className="textDir">
               <h2>O que define uma pessoa com deficiencia (PcD)?</h2>
               <p>É uma PcD quem tem uma dessas limitações(física, intelectual, visual ou auditiva).Se uma  pessoa tiver mais de um tipo
                 de deficiência, chamamos de deficiência múltipla.</p>
             </div>
 
             <div>
-              IMAGEM
+            <img className="imgSobre" src={Img3}/>
             </div>
           </section>
 
-          <section class="text">
+          <section className="text">
             <div>
-              IMAGEM
+            <img className="imgSobre" src={Img4}/>
             </div>
 
-            <div class="textEsq">
+            <div className="textEsq">
               <h2>Por Que?</h2>
               <p>Se exercitar com regularidade gera diversos benefícios para a saúde física e mental e, além disso, melhora a
                 qualidade de vida das pessoas.
@@ -68,8 +81,8 @@ export class Counter extends Component {
             </div>
           </section>
 
-          <section class="text">
-            <div class="como">
+          <section className="text">
+            <div className="como">
               <h2>Como?</h2>
               Consultando o nosso site você pode acessar informações sobre tudo relacionado a prática esportiva para Pessoas Com
               Deficiência, desde atividades desportivas até
@@ -87,26 +100,26 @@ export class Counter extends Component {
             </div>
 
             <div>
-              IMAGEM
+            <img className="imgSobre" src={Img5}/>
             </div>
           </section>
         </div>
 
-        <section class="squad">
+        <section className="squad">
           <h1>#SQUAD 12</h1>
         </section>
 
 
-        <section class="car">
-          <Card />
-          <Card />
-          <Card />
+        <section className="car">
+          <Card img={ImgCarlos}/>
+          <Card img={ImgTati}/>
+          <Card img={ImgEmanuel}/>
         </section>
 
-        <section class="car">
-          <Card />
-          <Card />
-          <Card />
+        <section className="car">
+          <Card img={ImgErica}/>
+          <Card img={ImgPatrick}/>
+          <Card img={ImgVictor}/>
         </section>
 
         <footer>
