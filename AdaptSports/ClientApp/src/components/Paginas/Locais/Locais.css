@@ -11,3 +11,8 @@
 .Alinha{
    align-items: center;
 }
+.text {
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    color: #36a9e1;
+}

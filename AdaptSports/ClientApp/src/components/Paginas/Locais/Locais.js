@@ -15,7 +15,7 @@ export default class Locais extends Component {
         <div className="Divisor">
           <h1>Locais</h1>
         </div>
-        <div align="center">
+        <div className="text">
           <h6>
             Aqui você encontra informações como: endereço, equipes, esportes
             disponiveis e muito mais. Tudo isso para praticar esporte adaptado
