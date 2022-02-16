@@ -22,7 +22,6 @@ export default function Footer() {
           </h6><br />
           <h5 className='titulofooter'>ADAPT SPORTS - Desenvolvido por Squad 12.</h5>
         </div>
-        
 
         <div className='fale-con'>
           <h3 className='titulofooter'>Fale Conosco</h3>
