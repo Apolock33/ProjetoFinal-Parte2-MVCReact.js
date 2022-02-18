@@ -3,7 +3,7 @@ import React from 'react';
 export default function Carrossel(props) {
  return (
      <div>
-         
+
          <section id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
              <div className="carousel-inner">
                  <div className="carousel-item active">
