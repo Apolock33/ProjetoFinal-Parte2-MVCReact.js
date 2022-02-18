@@ -1,35 +1,136 @@
-.footer {
-  background-color: #212121;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@media (min-width: 320px) {
+  .footer {
+    background-color: #1c1c1c;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LogoFooter {
+    min-width: 130px;
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    margin: 30px 70px;
+  }
+  .redessociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fale-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulofooter {
+    font-family: "organo";
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .textofooter {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    max-width: 220px;
+    margin-bottom: 30px;
+  }
+  .titulofooter h6 {
+    max-width: 550px;
+  }
+}
+@media (min-width: 651px) {
+  .footer {
+    background-color: #1c1c1c;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .LogoFooter {
+    min-width: 130px;
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    margin: 30px 70px;
+  }
+  .redessociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fale-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .titulofooter {
+    font-family: "organo";
+    color: #fff;
+    margin-left:30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .textofooter {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    margin: 0 70px 0 30px;
+    display: flex;
+    text-align: start;
+    max-width: 220px;
+    margin-bottom: 30px;
+  }
+  .titulofooter h6 {
+    max-width: 550px;
+  }
 }
 
-.LogoFooter {
-  margin-left: 70px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  min-width: 120px;
-  max-width: 120px;
-}
 
-.redesociais {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  font-family: "organo";
-  font-size: 15px;
-}
 
-.fale-con {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin-right: 30px;
-  color: #fff;
-}
-
-.titulofooter {
-  font-family: "organo";
+@media (min-width: 651px) {
+  .footer {
+    background-color: #1c1c1c;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .LogoFooter {
+    min-width: 130px;
+    max-width: 130px;
+    display: flex;
+    align-items: center;
+    margin: 30px 70px;
+  }
+  .redessociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fale-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .titulofooter {
+    font-family: "organo";
+    color: #fff;
+    margin-left:30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .textofooter {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    margin: 0 70px 0 30px;
+    display: flex;
+    text-align: start;
+    max-width: 220px;
+    margin-bottom: 30px;
+  }
+  .titulofooter h6 {
+    max-width: 550px;
+  }
 }

@@ -14,30 +14,32 @@ export default class Footer extends Component {
     render() {
         return (
             <footer className="footer">
+                
                 <div className="LogoFooter">
                     <img src={LogoAzul} alt='Logo' />
                 </div>
-                <div className='redesociais'>
+                <div className='redesociais' align='center'>
                     <h4 className='titulofooter'>Redes Sociais</h4>
                     <h6>
                         <Link><TiSocialFacebook color='white' size='30px' /></Link>
                         <Link><AiFillInstagram color='white' size='30px' /></Link>
                         <Link><AiOutlineTwitter color='white' size='30px' /></Link>
                     </h6><br />
-                    <h6 className='titulofooter'>ADAPT SPORTS - Desenvolvido por Squad 12.</h6>
+                    <h6 className='titulofooter'>ADAPT SPORTS - Desenvolvido<br /> por Squad 12.</h6>
                 </div>
 
 
                 <div className='fale-con'>
                     <h3 className='titulofooter'>Fale Conosco</h3>
-                    <h6>E-mail para contato:<br/>
+                    <h6 className='textofooter'>E-mail para contato:<br/>
+                        Squad12@gmail.com<br/><br/>
+                        Críticas, denúncias e reclamações:
                         Squad12@gmail.com<br /><br />
-                        Críticas, denúncias e reclamações:<br/>
-                        Squad12@gmail.com<br /><br />
-                        Horário de Atendimento:<br />
-                        Seg à sexta: 11:00 às 16h;<br />
+                        Horário de Atendimento:<br/>
+                        Seg à sexta: 11:00 às 16h;
                         Sábado: das 14:00 às 19hs;</h6>
                 </div>
+                
             </footer>
         );
     }
