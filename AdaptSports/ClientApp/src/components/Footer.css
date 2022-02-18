@@ -69,14 +69,12 @@
   .titulofooter {
     font-family: "organo";
     color: #fff;
-    margin-left:30px;
     margin-top: 40px;
     margin-bottom: 20px;
   }
   .textofooter {
     font-family: Montserrat, sans-serif;
     color: #fff;
-    margin: 0 70px 0 30px;
     display: flex;
     text-align: start;
     max-width: 220px;
