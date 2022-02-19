@@ -12,7 +12,7 @@ export class Home extends Component {
             <section className='HomePage'>
                 <div className='TextoPaiHome'>
 
-                    <div className='Titulo1Home'>
+                    <div className='Titulo1Home' align='center'>
                         <h1>Viva a Diferenca!</h1>
                     </div>
 
@@ -46,21 +46,21 @@ export class Home extends Component {
                             titulo='Pratica de esportes e aliada de pessoas com deficiencia'
                             link='https://www.gaz.com.br/pratica-de-esportes-e-aliada-de-pessoas-com-deficiencia/'
                             img='https://www.gaz.com.br/packages/uploads/2021/09/Basquete-cadeira-de-rodas-pessoa-com-deficiencia-2.jpg'
-                        /><br/><br/>
+                        /><br/>
 
                         <Card
                             className='CardHome'
                             titulo='Escola e meio de criancas conhecerem esporte, diz campeao paralimpico'
                             img='https://imagens.ebc.com.br/yjzt6Pd59HdOTujxnOVFqVxYmyA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/005_1.jpg?itok=IT3RLnH2'
                             link='https://agenciabrasil.ebc.com.br/geral/noticia/2021-09/escola-e-meio-de-criancas-conhecerem-esporte-diz-campeao-paralimpico#'
-                        /><br /><br />
+                        /><br/>
 
                         <Card
                             className='CardHome'
                             titulo='Penalty apoia inclusao de deficientes visuais com nova camisa do Magnus Futsal'
                             img='https://maquinadoesporte.com.br/media/_versions/magnus_futsal_widelg.jpeg'
                             link='https://maquinadoesporte.com.br/outros/penalty-lanca-camisa-para-apoiar-inclusao-de-deficientes-visuais'
-                        /><br /><br />
+                        /><br/>
                     </div>
 
                 </section>

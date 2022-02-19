@@ -3,72 +3,59 @@
   src: url("../../Assets/Fonts/Organo.ttf");
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-
-
 @media (min-width: 320px) {
+
   .TextoPaiHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo1Home {
     font-family: "organo";
-    max-width: 550px;
+    color: #36a9e1;
+    margin-top: 50px;
   }
 
   .Texto1Home {
     font-family: Montserrat, sans-serif;
+    color: #36a9e1;
     max-width: 450px;
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 80px;
   }
 
   .TextoMaeHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 150px;
-
-    margin-bottom: 110px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo2Home {
     font-family: "organo";
-    text-align: end;
+    color: #36a9e1;
+    margin-top: 50px;
   }
-
   .Texto2Home {
     font-family: Montserrat, sans-serif;
-    max-width: 950px;
-    text-align: justify;
+    color: #36a9e1;
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 90px;
   }
   .Noticias {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   }
+
   .Divisor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     background: linear-gradient(to right, #36a9e1, #00d154);
-    border-radius: 5px;
-    width: 300px;
-    padding: 10px 0 0 0;
-    margin: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    width:300px;
     color: #fff;
     font-family: "organo";
   }
@@ -76,102 +63,61 @@
     display: flex;
     flex-direction: column;
   }
-  .CardHome {
-    width: 300px;
-  }
-  .tituloCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .tituloCard h4 {
-    margin: 0 80px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  .button button {
-    margin: 30px 90px;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .button button:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-
-  .linkbutton {
-    text-decoration: none;
-    color: #fff;
-  }
-  .linkbutton:hover {
-    color: #000;
-  }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 650px) {
+
   .TextoPaiHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo1Home {
     font-family: "organo";
-    max-width: 550px;
+    color: #36a9e1;
+    margin-top: 50px;
   }
 
   .Texto1Home {
     font-family: Montserrat, sans-serif;
+    color: #36a9e1;
     max-width: 450px;
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 80px;
   }
 
   .TextoMaeHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 150px;
-
-    margin-bottom: 110px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo2Home {
     font-family: "organo";
-    text-align: end;
+    color: #36a9e1;
+    margin-top: 50px;
   }
-
   .Texto2Home {
     font-family: Montserrat, sans-serif;
-    max-width: 950px;
-    text-align: justify;
+    color: #36a9e1;
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 90px;
   }
   .Noticias {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   }
+
   .Divisor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     background: linear-gradient(to right, #36a9e1, #00d154);
-    border-radius: 5px;
-    width: 300px;
-    padding: 10px 0 0 0;
-    margin: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    width:300px;
     color: #fff;
     font-family: "organo";
   }
@@ -179,104 +125,62 @@
     display: flex;
     flex-direction: column;
   }
-  .CardHome {
-    width: 300px;
-  }
-  .tituloCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .tituloCard h4 {
-    margin: 0 80px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  .button button {
-    margin: 30px 90px;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .button button:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-
-  .linkbutton {
-    text-decoration: none;
-    color: #fff;
-  }
-  .linkbutton:hover {
-    color: #000;
-  }
 }
 
 
+@media (min-width: 651px) {
 
-@media (max-width: 600px){ 
   .TextoPaiHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo1Home {
     font-family: "organo";
-    max-width: 550px;
+    color: #36a9e1;
+    margin-top: 50px;
   }
 
   .Texto1Home {
     font-family: Montserrat, sans-serif;
+    color: #36a9e1;
     max-width: 450px;
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 80px;
   }
 
   .TextoMaeHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 150px;
-
-    margin-bottom: 110px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo2Home {
     font-family: "organo";
-    text-align: end;
+    color: #36a9e1;
+    margin-top: 50px;
   }
-
   .Texto2Home {
     font-family: Montserrat, sans-serif;
-    max-width: 950px;
-    text-align: justify;
+    color: #36a9e1;
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 90px;
   }
   .Noticias {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   }
+
   .Divisor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     background: linear-gradient(to right, #36a9e1, #00d154);
-    border-radius: 5px;
-    width: 300px;
-    padding: 10px 0 0 0;
-    margin: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    width:400px;
     color: #fff;
     font-family: "organo";
   }
@@ -284,106 +188,60 @@
     display: flex;
     flex-direction: column;
   }
-  .CardHome {
-    width: 300px;
-  }
-  .tituloCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .tituloCard h4 {
-    margin: 0 80px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  .button button {
-    margin: 30px 90px;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .button button:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-
-  .linkbutton {
-    text-decoration: none;
-    color: #fff;
-  }
-  .linkbutton:hover {
-    color: #000;
-  }
 }
+@media (max-width: 900px) {
 
-
-
-
-
-@media(min-width: 601px){
   .TextoPaiHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo1Home {
     font-family: "organo";
-    max-width: 550px;
+    color: #36a9e1;
+    margin-top: 50px;
   }
 
   .Texto1Home {
     font-family: Montserrat, sans-serif;
+    color: #36a9e1;
     max-width: 450px;
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 80px;
   }
 
   .TextoMaeHome {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 150px;
-
-    margin-bottom: 110px;
-    color: #36a9e1;
+    align-items: center;
   }
 
   .Titulo2Home {
     font-family: "organo";
-    text-align: end;
+    color: #36a9e1;
+    margin-top: 50px;
   }
-
   .Texto2Home {
     font-family: Montserrat, sans-serif;
-    max-width: 950px;
-    text-align: justify;
+    color: #36a9e1;
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 90px;
   }
   .Noticias {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   }
+
   .Divisor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     background: linear-gradient(to right, #36a9e1, #00d154);
-    border-radius: 5px;
-    width: 500px;
     padding: 10px;
-    margin: 30px;
+    padding-top: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    width:400px;
     color: #fff;
     font-family: "organo";
   }
@@ -391,264 +249,79 @@
     display: flex;
     flex-direction: column;
   }
-  .CardHome {
-    width: 300px;
-  }
-  .tituloCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .tituloCard h4 {
-    margin: 0 80px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  .button button {
-    margin: 30px 90px;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .button button:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-
-  .linkbutton {
-    text-decoration: none;
-    color: #fff;
-  }
-  .linkbutton:hover {
-    color: #000;
-  }
-}
-
-@media(max-width: 900px){
-  .TextoPaiHome {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-    color: #36a9e1;
-  }
-
-  .Titulo1Home {
-    font-family: "organo";
-    max-width: 550px;
-  }
-
-  .Texto1Home {
-    font-family: Montserrat, sans-serif;
-    max-width: 450px;
-    text-align: justify;
-  }
-
-  .TextoMaeHome {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 150px;
-
-    margin-bottom: 110px;
-    color: #36a9e1;
-  }
-
-  .Titulo2Home {
-    font-family: "organo";
-    text-align: end;
-  }
-
-  .Texto2Home {
-    font-family: Montserrat, sans-serif;
-    max-width: 950px;
-    text-align: justify;
-  }
-  .Noticias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-  .Divisor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border-radius: 5px;
-    width: 500px;
-    padding: 10px 0 0 0;
-    margin: 30px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .Cards {
-    display: flex;
-    flex-direction: column;
-  }
-  .CardHome {
-    width: 300px;
-  }
-  .tituloCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .tituloCard h4 {
-    margin: 0 80px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  .button button {
-    margin: 30px 90px;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .button button:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-
-  .linkbutton {
-    text-decoration: none;
-    color: #fff;
-  }
-  .linkbutton:hover {
-    color: #000;
-  }
 }
 
 
-
-
-
-
-@media(min-width: 901px){
-  .HomePage{
-    margin-top:-16px !important;
-    background-image: url('../../Assets/Img/img-home.jpg');
+@media (min-width: 901px) {
+  .HomePage {
+    background-image: url("../../Assets/Img/img-home.jpg");
     background-size: cover;
-    width: 100%;
     height: 107vh;
+    width: 100%;
     margin: 0;
+    margin-top: -16px;
   }
+
   .TextoPaiHome {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 70px;
-    color: #36a9e1;
   }
 
   .Titulo1Home {
-    margin-top:15px;   
     font-family: "organo";
-    max-width: 550px;
+    color: #36a9e1;
+    margin-top: 50px;
+    margin-right: 110px;
   }
 
   .Texto1Home {
     font-family: Montserrat, sans-serif;
+    color: #36a9e1;
     max-width: 450px;
     text-align: justify;
+    margin-right: 70px;
+    margin-bottom: 100px;
   }
 
   .TextoMaeHome {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 70px;
-    margin-top: 100px;
-    margin-bottom: 150px;
-    color: #36a9e1;
   }
 
   .Titulo2Home {
     font-family: "organo";
-    text-align: end;
+    color: #36a9e1;
+    margin-top: 50px;
     margin-left: 70px;
   }
-
   .Texto2Home {
     font-family: Montserrat, sans-serif;
+    color: #36a9e1;
     max-width: 450px;
     text-align: justify;
     margin-left: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
   }
   .Noticias {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   }
+
   .Divisor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     background: linear-gradient(to right, #36a9e1, #00d154);
-    border-radius: 5px;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 50px;
+    border-radius: 10px;
     width: 800px;
-    padding: 10px 0 0 0;
-    margin: 30px;
     color: #fff;
     font-family: "organo";
   }
   .Cards {
     display: flex;
     flex-direction: row;
-  }
-  .CardHome {
-    width: 300px;
-  }
-  .tituloCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .tituloCard h4 {
-    margin: 0 80px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  .button button {
-    margin: 30px 90px;
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-family: "organo";
-  }
-  .button button:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
-
-  .linkbutton {
-    text-decoration: none;
-    color: #fff;
-  }
-  .linkbutton:hover {
-    color: #000;
   }
 }
