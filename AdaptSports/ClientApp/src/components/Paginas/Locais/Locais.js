@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import "./Locais.css";
 import ImgCard1 from "../../Assets/Img/deficiente-basquete.jpg";
 import ImgCard2 from "../../Assets/Img/basquete-deficientes.jpg";
@@ -7,11 +7,12 @@ import Card from "../../CardLocais/Card";
 import Footer from "../../Footer";
 import Carrossel from "../../Carrossel";
 import Modal from "../../Modal/Modal";
-import Modal2 from "../../Modal2/Modal"
-import Modal3 from "../../Modal3/Modal"
 
 export default class Locais extends Component {
   render() {
+
+
+    
     return (
       <div align="center" className="Alinha">
         <div className="DivisorLocais ">
@@ -39,7 +40,9 @@ export default class Locais extends Component {
               img={ImgCard1}
               titulo='Add - Associacao Desportiva Para Deficientes' /><br />
             <div className="Modal">
-              <Modal />
+              <Modal
+                title='Add'
+              />
             </div>
           </section>
 
@@ -48,7 +51,9 @@ export default class Locais extends Component {
               img={ImgCard2}
               titulo='Escola Paralimpica de Esportes' /><br />
             <div className="Modal">
-              <Modal2 />
+              <Modal
+                title='Escola'
+              />
             </div>
           </section>
 
@@ -58,7 +63,7 @@ export default class Locais extends Component {
               titulo='Corinthians ABRATOP  - Associacao Brasileira de Triathlon Olimpico e Paralimpico'
             /><br />
             <div className="Modal" align="center">
-              <Modal3 />
+              <Modal />
             </div>
           </section>
 

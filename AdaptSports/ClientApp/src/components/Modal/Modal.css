@@ -4,20 +4,19 @@
   box-sizing: border-box;
 }
 
-.modalbody {
-  max-height: 100vh;
-  display: grid;
-  place-content: center;
-  font-family: Montserrat, sans-serif;
-}
-
-.botaoCard {
-  padding: 10px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #000;
-}
-
-.tituloModal {
+.buttonModal {
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgba(54, 169, 225, 1),
+    rgba(0, 209, 84, 1)
+  );
+  padding: 15px 10px 10px;
+  border-radius: 5px;
+  color: #fff;
   font-family: "organo";
+}
+
+.buttonModal:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
