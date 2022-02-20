@@ -18,6 +18,7 @@ export default function Modal(props) {
                         <div class="modal-body">
                             <p>{ props.texto }</p>
                         </div>
+                        
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
                         </div>
