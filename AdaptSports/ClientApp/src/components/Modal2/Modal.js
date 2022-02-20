@@ -3,7 +3,7 @@ import React from 'react';
 export default function Modal(props) {
     return (
         <body>
-
+            
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Saiba Mais
             </button>
@@ -16,8 +16,8 @@ export default function Modal(props) {
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <p>{props.texto}</p>
-
+                            <p>{ props.texto }</p>
+                            
                             <h5> {props.title2} </h5>
                             <p>{props.textopro}</p>
                         </div>

@@ -31,11 +31,13 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
   .LogoFooter {
     max-width: 150px;
     min-width: 150px;
     margin: 100px 30px;
   }
+
   .redesociais {
     color: #fff;
     font-family: "organo";
@@ -50,9 +52,9 @@
     margin: 50px 30px;
   }
   .titulofooter {
-      font-family: "organo";
+    font-family: "organo";
   }
   .titulofooter h3 {
-      text-align: start;
+    text-align: start;
   }
 }
