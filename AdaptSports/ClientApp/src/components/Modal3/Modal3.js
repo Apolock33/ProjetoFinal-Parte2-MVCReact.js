@@ -54,9 +54,6 @@ export default function Modal3() {
                                 </h6>
                             </p>
                         </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                        </div>
                     </div>
                 </div>
             </div>

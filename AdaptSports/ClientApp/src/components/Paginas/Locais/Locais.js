@@ -1,8 +1,11 @@
-import React, { Component } from "react";
+import React,{ Component } from "react";
 import "./Locais.css";
-import ImgCard1 from "../../Assets/Img/deficiente-basquete.jpg";
+import ImgCarr1 from "../../Assets/Img/deficiente-basquete.jpg";
+import ImgCarr2 from "../../Assets/Img/basquete-deficientes.jpg";
+import ImgCarr3 from "../../Assets/Img/deficiente-lider-de-torcida.jpg";
+import ImgCard1 from "../../Assets/Img/add.jpg";
 import ImgCard2 from "../../Assets/Img/basquete-deficientes.jpg";
-import ImgCard3 from "../../Assets/Img/deficiente-lider-de-torcida.jpg";
+import ImgCard3 from "../../Assets/Img/deficiente-lider-de-torcida.jpg"
 import Card from "../../CardLocais/Card";
 import Footer from "../../Footer";
 import Carrossel from "../../Carrossel";
@@ -25,7 +28,7 @@ export default class Locais extends Component {
           </h6>
         </div>
         <div className="Carrossel">
-          <Carrossel img1={ImgCard1} img2={ImgCard2} img3={ImgCard3} />
+          <Carrossel img1={ImgCarr1} img2={ImgCarr2} img3={ImgCarr3} />
         </div>
 
         <div className="DivisorLocais">
@@ -46,7 +49,7 @@ export default class Locais extends Component {
           <section className="cardemodal" align='center'>
             <Card className="CardLocal"
               img={ImgCard2}
-              titulo='Escola Paralimpica de Esportes' /><br />
+              titulo='JR-SP | ASSOCIACAO PARADESPORTIVA JR SP' /><br />
             <div className="Modal">
               <Modal2 />
             </div>
@@ -55,7 +58,7 @@ export default class Locais extends Component {
           <section className="cardemodal" align='center'>
             <Card className='CardLocal'
               img={ImgCard3}
-              titulo='Corinthians ABRATOP  - Associacao Brasileira de Triathlon Olimpico e Paralimpico'
+              titulo='CESEC | CENTRO DE EMANCIPACAO SOCIAL E ESPORTIVA DE CEGOS'
             /><br />
             <div className="Modal" align="center">
               <Modal3 />

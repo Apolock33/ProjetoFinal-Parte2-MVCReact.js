@@ -50,10 +50,6 @@ export default function Modal1() {
                                 Estrutura e funcionamento: Os interessados deverão entrar em contato para receber para firmar a parceria na realização do evento.
                             </p>
                         </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
