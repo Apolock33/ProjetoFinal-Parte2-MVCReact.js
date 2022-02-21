@@ -1,0 +1,9 @@
+.navItem{
+    font-family: 'organo';
+    color: #36a9e1;
+    font-size: 20px;
+}
+
+.navItem:hover{
+    color: #00d154;
+}
