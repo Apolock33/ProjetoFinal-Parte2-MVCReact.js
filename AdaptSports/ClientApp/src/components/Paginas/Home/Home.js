@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Home.css';
-import imgHome from '../../Assets/Img/img-home.jpg';
 import Footer from '../../Footer'
 import Card from '../../CardHome/Card';
 

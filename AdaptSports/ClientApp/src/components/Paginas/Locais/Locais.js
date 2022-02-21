@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./Locais.css";
 import ImgCard1 from "../../Assets/Img/deficiente-basquete.jpg";
 import ImgCard2 from "../../Assets/Img/basquete-deficientes.jpg";
