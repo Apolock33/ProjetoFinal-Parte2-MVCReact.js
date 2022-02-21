@@ -30,13 +30,13 @@ export class Counter extends Component {
               <p>O site é direcionado para Pessoas Com Deficiência interessadas na prática de atividades físicas e esportivas.</p>
             </div>
             <div>
-              <img className="imgSobre" src={Img1}/>
+              <img className="imgSobre" src={Img1} alt='img5'/>
             </div>
           </section>
 
           <section className="text">
             <div>
-            <img className="imgSobre" src={Img2}/>
+            <img className="imgSobre" src={Img2} alt='img1'/>
             </div>
             <div className="textEsq">
               <h2>O que e uma deficiencia?</h2>
@@ -56,13 +56,13 @@ export class Counter extends Component {
             </div>
 
             <div>
-            <img className="imgSobre" src={Img3}/>
+              <img className="imgSobre" src={Img3} alt='img2'/>
             </div>
           </section>
 
           <section className="text">
             <div>
-            <img className="imgSobre" src={Img4}/>
+              <img className="imgSobre" src={Img4} alt='img3'/>
             </div>
 
             <div className="textEsq">
@@ -100,7 +100,7 @@ export class Counter extends Component {
             </div>
 
             <div>
-            <img className="imgSobre" src={Img5}/>
+              <img className="imgSobre" src={Img5} alt='img4'/>
             </div>
           </section>
         </div>
