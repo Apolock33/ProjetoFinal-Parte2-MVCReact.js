@@ -6,13 +6,12 @@ import ImgCard3 from "../../Assets/Img/deficiente-lider-de-torcida.jpg";
 import Card from "../../CardLocais/Card";
 import Footer from "../../Footer";
 import Carrossel from "../../Carrossel";
-import Modal from "../../Modal/Modal";
+import Modal1 from "../../Modal1/Modal1";
+import Modal2 from "../../Modal2/Modal2";
+import Modal3 from "../../Modal3/Modal3"
 
 export default class Locais extends Component {
   render() {
-
-
-    
     return (
       <div align="center" className="Alinha">
         <div className="DivisorLocais ">
@@ -40,9 +39,7 @@ export default class Locais extends Component {
               img={ImgCard1}
               titulo='Add - Associacao Desportiva Para Deficientes' /><br />
             <div className="Modal">
-              <Modal
-                title='Add'
-              />
+              <Modal1 />
             </div>
           </section>
 
@@ -51,9 +48,7 @@ export default class Locais extends Component {
               img={ImgCard2}
               titulo='Escola Paralimpica de Esportes' /><br />
             <div className="Modal">
-              <Modal
-                title='Escola'
-              />
+              <Modal2 />
             </div>
           </section>
 
@@ -63,7 +58,7 @@ export default class Locais extends Component {
               titulo='Corinthians ABRATOP  - Associacao Brasileira de Triathlon Olimpico e Paralimpico'
             /><br />
             <div className="Modal" align="center">
-              <Modal />
+              <Modal3 />
             </div>
           </section>
 
