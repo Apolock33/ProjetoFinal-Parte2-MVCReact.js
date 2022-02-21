@@ -1,0 +1,435 @@
+﻿++Solução 'AdaptSports' ‎(1 de 1 projeto)
+i:{00000000-0000-0000-0000-000000000000}:AdaptSports.sln
+++AdaptSports
+i:{00000000-0000-0000-0000-000000000000}:AdaptSports
+++Connected Services 
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86821
+++Dependências
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86820
+++Properties
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\
+++wwwroot
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\
+++Areas
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\
+++ClientApp
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\
+++Controllers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\controllers\
+++Data
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\data\
+++Models
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\models\
+++Pages
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\
+++.gitignore
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\.gitignore
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\.gitignore
+++appsettings.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\appsettings.json
+++package.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\package.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\package.json
+++Program.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\program.cs
+++ScaffoldingReadMe.txt
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\scaffoldingreadme.txt
+++WeatherForecast.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\weatherforecast.cs
+++LocalDB do SQL Server Express (Local) (ConnectionStrings:DefaultConnection)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86859
+++Analisadores
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:analisadores
+++Estruturas
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:estruturas
+++Pacotes
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:pacotes
+++ServiceDependencies
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies\
+++launchSettings.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\launchsettings.json
+++serviceDependencies.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies.json
+++css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\css\
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\js\
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\
+++favicon.ico
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\favicon.ico
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\public\favicon.ico
+++Identity
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\
+++public
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\public\
+++src
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\
+++.env
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\.env
+++aspnetcore-https.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\aspnetcore-https.js
+++aspnetcore-react.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\aspnetcore-react.js
+++README.md
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\readme.md
+++OidcConfigurationController.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\controllers\oidcconfigurationcontroller.cs
+++WeatherForecastController.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\controllers\weatherforecastcontroller.cs
+++Migrations
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\data\migrations\
+++ApplicationDbContext.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\data\applicationdbcontext.cs
+++ApplicationUser.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\models\applicationuser.cs
+++Shared
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\shared\
+++_ViewImports.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\_viewimports.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\_viewimports.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\_viewstart.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\_viewstart.cshtml
+++Error.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\error.cshtml
+++appsettings.Development.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\appsettings.development.json
+++package-lock.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\package-lock.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\package-lock.json
+++MessagePackAnalyzer
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\users\vcper\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\users\vcper\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\users\vcper\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\users\vcper\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\microsoft.netcore.app
+++Microsoft.AspNetCore.ApiAuthorization.IdentityServer (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86851
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86844
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86845
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86850
+++Microsoft.AspNetCore.SpaProxy (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86847
+++Microsoft.EntityFrameworkCore.Relational (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86846
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86843
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86848
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:>86849
+++AdaptSports20220215180838 - Web Deploy
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies\adaptsports20220215180838 - web deploy\
+++serviceDependencies.AdaptSports20220215180838 - Web Deploy.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies.adaptsports20220215180838 - web deploy.json
+++serviceDependencies.local.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies.local.json
+++site.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\css\site.css
+++site.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\js\site.js
+++bootstrap
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\
+++jquery
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery\
+++jquery-validation
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation-unobtrusive\
+++index.html
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\public\index.html
+++manifest.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\public\manifest.json
+++components
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\
+++App.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\app.js
+++custom.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\custom.css
+++index.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\index.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\carrossel\index.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\footer\index.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\logo\index.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\navbar\index.js
+++reportWebVitals.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\reportwebvitals.js
+++service-worker.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\service-worker.js
+++serviceWorkerRegistration.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\serviceworkerregistration.js
+++setupProxy.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\setupproxy.js
+++setupTests.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\setuptests.js
+++.env.development
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\.env.development
+++00000000000000_CreateIdentitySchema.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\data\migrations\00000000000000_createidentityschema.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\data\migrations\applicationdbcontextmodelsnapshot.cs
+++_Layout.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\shared\_validationscriptspartial.cshtml
+++Error.cshtml.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\pages\error.cshtml.cs
+++mssql1.arm.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies\adaptsports20220215180838 - web deploy\mssql1.arm.json
+++profile.arm.json
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\properties\servicedependencies\adaptsports20220215180838 - web deploy\profile.arm.json
+++dist
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery\dist\
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery\license.txt
+++LICENSE.md
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++Account
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\
+++api-authorization
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\
+++Assets
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\
+++CardHome
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\cardhome\
+++CardLocais
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\cardlocais\
+++Carrossel
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\carrossel\
+++Footer
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\footer\
+++Logo
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\logo\
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\logo\
+++Modal
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\modal\
+++NavBar
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\navbar\
+++Paginas
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\
+++Footer.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\footer.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\footer\footer.css
+++Footer.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\footer.js
+++Layout.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\layout.js
+++NavMenu.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\navmenu.css
+++NavMenu.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\navmenu.js
+++App.test.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\app.test.js
+++.env.development.local
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\.env.development.local
+++00000000000000_CreateIdentitySchema.Designer.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\data\migrations\00000000000000_createidentityschema.designer.cs
+++jquery.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++Login.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\login.cshtml
+++Logout.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\logout.cshtml
+++Register.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\register.cshtml
+++ResetPassword.cshtml
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\resetpassword.cshtml
+++ApiAuthorizationConstants.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\apiauthorizationconstants.js
+++ApiAuthorizationRoutes.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\apiauthorizationroutes.js
+++AuthorizeRoute.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\authorizeroute.js
+++AuthorizeService.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\authorizeservice.js
+++Login.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\login.js
+++LoginMenu.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\loginmenu.js
+++Logout.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\api-authorization\logout.js
+++Fonts
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\fonts\
+++Img
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\
+++Card.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\cardhome\card.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\cardlocais\card.css
+++Card.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\cardhome\card.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\cardlocais\card.js
+++Carrosel.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\carrossel\carrosel.css
+++Modal.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\modal\modal.css
+++Modal.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\modal\modal.js
+++NavBar.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\navbar\navbar.css
+++Esportes
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\esportes\
+++Home
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\home\
+++Locais
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\locais\
+++SobreNos
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\sobrenos\
+++bootstrap.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++Login.cshtml.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\login.cshtml.cs
+++Logout.cshtml.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\logout.cshtml.cs
+++Register.cshtml.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\register.cshtml.cs
+++ResetPassword.cshtml.cs
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\areas\identity\pages\account\resetpassword.cshtml.cs
+++Organo.ttf
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\fonts\organo.ttf
+++ABRATOP.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\abratop.jpg
+++Ativo 1.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\ativo 1.svg
+++ativo4.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\ativo4.svg
+++atletismoAdaptado.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\atletismoadaptado.jpg
+++b3.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\b3.jpg
+++BadmintonAdaptado.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\badmintonadaptado.jpg
+++BasqueteAdaptado.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\basqueteadaptado.jpg
+++basquete-deficientes.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\basquete-deficientes.jpg
+++canoagem_adaptada.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\canoagem_adaptada.jpg
+++carlos.jpeg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\carlos.jpeg
+++ciclismoAdaptado.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\ciclismoadaptado.jpg
+++deficiente-alongamento.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\deficiente-alongamento.jpg
+++deficiente-basquete.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\deficiente-basquete.jpg
+++deficiente-intelectual.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\deficiente-intelectual.jpg
+++deficiente-lider-de-torcida.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\deficiente-lider-de-torcida.jpg
+++emanuel].jpeg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\emanuel].jpeg
+++erica.jpeg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\erica.jpeg
+++esgrimaAdaptada.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\esgrimaadaptada.jpg
+++futebol5Adaptado.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\futebol5adaptado.jpg
+++goalballAdaptado.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\goalballadaptado.jpg
+++img 1.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\img 1.svg
+++img 2.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\img 2.svg
+++img4.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\img4.svg
+++img-home.jpg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\img-home.jpg
+++patrick].jpeg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\patrick].jpeg
+++tati.jpeg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\tati.jpeg
+++victor.jpeg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\img\victor.jpeg
+++logo azul com curculo.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\logo\logo azul com curculo.svg
+++logo azul.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\logo\logo azul.svg
+++logo verde com circulo.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\logo\logo verde com circulo.svg
+++logo verde.svg
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\assets\logo\logo verde.svg
+++esporte.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\esportes\esporte.css
+++FetchData.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\esportes\fetchdata.js
+++Home.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\home\home.css
+++Home.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\home\home.js
+++Locais.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\locais\locais.css
+++Locais.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\locais\locais.js
+++Counter.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\sobrenos\counter.js
+++Sobre.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\clientapp\src\components\paginas\sobrenos\sobre.css
+++bootstrap.css.map
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.min.js
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{7272d552-10bc-4863-b559-76a1f3ed41e1}:d:\recode\projeto-final-3a-entrega\adaptsports\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++Register.cshtml.cs~RF11e3bf0.TMP
