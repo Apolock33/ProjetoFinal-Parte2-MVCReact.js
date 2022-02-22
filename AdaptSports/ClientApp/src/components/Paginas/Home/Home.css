@@ -127,7 +127,6 @@
   }
 }
 
-
 @media (min-width: 651px) {
 
   .TextoPaiHome {
@@ -189,6 +188,7 @@
     flex-direction: column;
   }
 }
+
 @media (max-width: 900px) {
 
   .TextoPaiHome {
@@ -250,7 +250,6 @@
     flex-direction: column;
   }
 }
-
 
 @media (min-width: 901px) {
   .HomePage {
@@ -323,5 +322,6 @@
   .Cards {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
   }
 }
