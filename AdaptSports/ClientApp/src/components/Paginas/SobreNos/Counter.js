@@ -114,15 +114,15 @@ export class Counter extends Component {
 
 
         <section className="car">
-          <Card img={ImgCarlos} />
-          <Card img={ImgTati} />
-          <Card img={ImgEmanuel} />
+          <Card img={ImgCarlos} /><br /><br />
+          <Card img={ImgTati} /><br /><br />
+          <Card img={ImgEmanuel} /><br /><br />
         </section>
 
         <section className="car">
-          <Card img={ImgErica} />
-          <Card img={ImgPatrick} />
-          <Card img={ImgVictor} />
+          <Card img={ImgErica} /><br /><br />
+          <Card img={ImgPatrick} /><br /><br />
+          <Card img={ImgVictor} /><br/><br/>
         </section>
 
         <footer>
