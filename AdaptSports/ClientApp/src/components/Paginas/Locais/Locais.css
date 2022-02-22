@@ -183,6 +183,7 @@
     margin-bottom: 20px;
   }
 }
+
 @media (min-width: 901px) {
   .cardslocais {
     display: flex;
