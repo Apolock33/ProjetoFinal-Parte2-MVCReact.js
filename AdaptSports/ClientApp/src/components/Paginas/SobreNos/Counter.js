@@ -24,20 +24,15 @@ export class Counter extends Component {
     return (
       <div>
         <div className="principal">
-          <section className="text">
+
+          <section className="textsobrenos">
             <div className="textDir">
               <h2>Para quem?</h2>
               <p>O site é direcionado para Pessoas Com Deficiência interessadas na prática de atividades físicas e esportivas.</p>
             </div>
-            <div>
-              <img className="imgSobre" src={Img1} alt='img5'/>
-            </div>
           </section>
 
-          <section className="text">
-            <div>
-            <img className="imgSobre" src={Img2} alt='img1'/>
-            </div>
+          <section className="textsobrenos">
             <div className="textEsq">
               <h2>O que e uma deficiencia?</h2>
               <p>A deficiência é uma limitação física, intelectual, visual ou auditiva que dificulta a realização de atividades, em
@@ -48,23 +43,15 @@ export class Counter extends Component {
             </div>
           </section>
 
-          <section className="text">
+          <section className="textsobrenos">
             <div className="textDir">
               <h2>O que define uma pessoa com deficiencia (PcD)?</h2>
               <p>É uma PcD quem tem uma dessas limitações(física, intelectual, visual ou auditiva).Se uma  pessoa tiver mais de um tipo
                 de deficiência, chamamos de deficiência múltipla.</p>
             </div>
-
-            <div>
-              <img className="imgSobre" src={Img3} alt='img2'/>
-            </div>
           </section>
 
-          <section className="text">
-            <div>
-              <img className="imgSobre" src={Img4} alt='img3'/>
-            </div>
-
+          <section className="textsobrenos">
             <div className="textEsq">
               <h2>Por Que?</h2>
               <p>Se exercitar com regularidade gera diversos benefícios para a saúde física e mental e, além disso, melhora a
@@ -81,28 +68,26 @@ export class Counter extends Component {
             </div>
           </section>
 
-          <section className="text">
-            <div className="como">
+          <section className="textsobrenos">
+            <div className="textDir">
               <h2>Como?</h2>
-              Consultando o nosso site você pode acessar informações sobre tudo relacionado a prática esportiva para Pessoas Com
-              Deficiência, desde atividades desportivas até
-              mesmo atividades voltadas para competições.  Na página "locais avaliados" você se informa a respeito de contatos,
-              horários, descrição dos ambientes e das atividades ofertadas e também pode marcar uma visita agendada.  Se
-              quiser
-              praticar exercícios físicos em
-              outros locais que não estejam na lista, você pode simplesmente verificar informações voltadas para o esporte que deseja
-              conhecer.
-              É possível sugerir novos locais no mapa e também dispor do nosso maior diferencial, que é um
-              esquema de "avaliação pelos usuários".  Nele você pode avaliar as instalações e ambientes livres, pode postar o seu
-              depoimento a respeito da acessibilidade, hospitalidade e estrutura do local visitado,
-              além de acrescentar vídeos e fotos para servirem de referência
-              para o público PcD se orientar sobre a prática esportiva nesses locais de acordo com as suas necessidades.
-            </div>
-
-            <div>
-              <img className="imgSobre" src={Img5} alt='img4'/>
+              <p>Consultando o nosso site você pode acessar informações sobre tudo relacionado a prática esportiva para Pessoas Com
+                Deficiência, desde atividades desportivas até
+                mesmo atividades voltadas para competições.  Na página "locais avaliados" você se informa a respeito de contatos,
+                horários, descrição dos ambientes e das atividades ofertadas e também pode marcar uma visita agendada.  Se
+                quiser
+                praticar exercícios físicos em
+                outros locais que não estejam na lista, você pode simplesmente verificar informações voltadas para o esporte que deseja
+                conhecer.
+                É possível sugerir novos locais no mapa e também dispor do nosso maior diferencial, que é um
+                esquema de "avaliação pelos usuários".  Nele você pode avaliar as instalações e ambientes livres, pode postar o seu
+                depoimento a respeito da acessibilidade, hospitalidade e estrutura do local visitado,
+                além de acrescentar vídeos e fotos para servirem de referência
+                para o público PcD se orientar sobre a prática esportiva nesses locais de acordo com as suas necessidades.
+              </p>
             </div>
           </section>
+
         </div>
 
         <section className="squad">
@@ -111,15 +96,15 @@ export class Counter extends Component {
 
 
         <section className="car">
-          <Card img={ImgCarlos}/>
-          <Card img={ImgTati}/>
-          <Card img={ImgEmanuel}/>
+          <Card img={ImgCarlos} />
+          <Card img={ImgTati} />
+          <Card img={ImgEmanuel} />
         </section>
 
         <section className="car">
-          <Card img={ImgErica}/>
-          <Card img={ImgPatrick}/>
-          <Card img={ImgVictor}/>
+          <Card img={ImgErica} />
+          <Card img={ImgPatrick} />
+          <Card img={ImgVictor} />
         </section>
 
         <footer>

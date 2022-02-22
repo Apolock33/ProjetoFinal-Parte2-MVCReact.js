@@ -1,63 +1,261 @@
-p {
-    text-align: justify;
-}
-
-.principal {
-    padding: 30px;
-}
-
-section {
-    margin: 30px;
-}
-
-.text h2 {
-    font-family: 'organo';
-}
-
-.text p {
+@media (min-width: 320px) {
+  .textsobrenos h2 {
+    font-family: "organo";
+  }
+  .textsobrenos p {
     font-family: Montserrat, sans-serif;
-}
+  }
 
-.text {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.textDir {
-    color: #36a9e1 !important;
-}
-
-.textDir p {
-    max-width: 650px;
-}
-
-.textEsq {
-    text-align: end;
-    color: #00d154 !important;
-}
-
-.textEsq p {
-    max-width: 750px;
-}
-
-.como {
-    max-width: 750px;
-    color: #36a9e1;
-}
-
-.squad {
-    font-family: 'organo';
+  .textDir {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #36a9e1;
+    margin: 0 30px;
+  }
+  .textDir p {
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .textEsq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00d154;
+    margin: 0 30px;
+  }
+  .textEsq p {
+    max-width: 800px;
+    text-align: center;
+  }
+  .squad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "organo";
+    color: #00d154;
+    margin-bottom: 10px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .car div{
+      margin-bottom:20px;
+  }
 }
 
-.car {
-    margin: 50px 200px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+@media (max-width: 650px) {
+  .textsobrenos h2 {
+    font-family: "organo";
+  }
+  .textsobrenos p {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .textDir {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #36a9e1;
+    margin: 0 30px;
+  }
+  .textDir p {
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .textEsq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00d154;
+    margin: 0 30px;
+  }
+  .textEsq p {
+    max-width: 800px;
+    text-align: center;
+  }
+  .squad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "organo";
+    color: #00d154;
+    margin-bottom: 10px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .car div{
+      margin-bottom:20px;
+  }
 }
-.imgSobre{
-    width: 200px;
-    height: 200px;
+
+@media (min-width: 651px) {
+  .textsobrenos h2 {
+    font-family: "organo";
+  }
+
+  .textsobrenos p {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .textDir {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #36a9e1;
+    margin: 0 30px;
+  }
+  .textDir p {
+    max-width: 800px;
+    text-align: start;
+  }
+
+  .textEsq {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #00d154;
+    margin: 0 30px;
+  }
+  .textEsq p {
+    max-width: 800px;
+    text-align: end;
+  }
+  .squad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "organo";
+    color: #00d154;
+    margin-bottom: 10px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .car div{
+      margin-bottom:20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .textsobrenos h2 {
+    font-family: "organo";
+  }
+
+  .textsobrenos p {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .textDir {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #36a9e1;
+    margin: 0 30px;
+  }
+  .textDir p {
+    max-width: 800px;
+    text-align: start;
+  }
+
+  .textEsq {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #00d154;
+    margin: 0 30px;
+  }
+  .textEsq p {
+    max-width: 800px;
+    text-align: end;
+  }
+  .squad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "organo";
+    color: #00d154;
+    margin-bottom: 10px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .car div{
+      margin-bottom:20px;
+  }
+}
+
+@media (min-width: 901px) {
+  .textsobrenos h2 {
+    font-family: "organo";
+  }
+  .textsobrenos p {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .textDir {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    color: #36a9e1;
+  }
+  .textDir p {
+    max-width: 800px;
+  }
+
+  .textEsq {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #00d154;
+    margin-right: 50px;
+  }
+  .textEsq p {
+    max-width: 800px;
+  }
+  .squad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "organo";
+    color: #00d154;
+    margin-bottom: 20px;
+  }
+
+  .car {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .car div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 }
