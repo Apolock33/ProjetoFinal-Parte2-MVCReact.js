@@ -5,7 +5,7 @@ import Card from '../../CardHome/Card';
 
 export class Home extends Component {
     static displayName = Home.name;
-
+    
     render() {
         return (
             <section className='HomePage'>
@@ -61,7 +61,6 @@ export class Home extends Component {
                             link='https://maquinadoesporte.com.br/outros/penalty-lanca-camisa-para-apoiar-inclusao-de-deficientes-visuais'
                         /><br/>
                     </div>
-
                 </section>
 
                 <footer>
