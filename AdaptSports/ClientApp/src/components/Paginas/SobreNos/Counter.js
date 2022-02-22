@@ -1,7 +1,6 @@
 import Card from '../../CardHome/Card';
 import Footer from '../../Footer';
 import React, { Component } from 'react';
-
 import ImgCarlos from '../../Assets/Img/carlos.jpeg';
 import ImgTati from '../../Assets/Img/tati.jpeg';
 import ImgEmanuel from '../../Assets/Img/emanuel].jpeg'
@@ -25,14 +24,24 @@ export class Counter extends Component {
       <div>
         <div className="principal">
 
+          <div className="DivisorSobre">
+            <h1>Sobre Nos</h1>
+          </div>
+          
           <section className="textsobrenos">
             <div className="textDir">
               <h2>Para quem?</h2>
               <p>O site é direcionado para Pessoas Com Deficiência interessadas na prática de atividades físicas e esportivas.</p>
             </div>
+            <div className='imgsobre'>
+              <img  src={Img1} alt='img1'/>
+            </div>
           </section>
 
           <section className="textsobrenos">
+            <div className='imgsobre'>
+              <img src={Img2} alt='img2' />
+            </div>
             <div className="textEsq">
               <h2>O que e uma deficiencia?</h2>
               <p>A deficiência é uma limitação física, intelectual, visual ou auditiva que dificulta a realização de atividades, em
@@ -49,9 +58,15 @@ export class Counter extends Component {
               <p>É uma PcD quem tem uma dessas limitações(física, intelectual, visual ou auditiva).Se uma  pessoa tiver mais de um tipo
                 de deficiência, chamamos de deficiência múltipla.</p>
             </div>
+            <div className='imgsobre'>
+              <img  src={Img3} alt='img3' />
+            </div>
           </section>
 
           <section className="textsobrenos">
+            <div className='imgsobre'>
+              <img src={Img4} alt='img4' />
+            </div>
             <div className="textEsq">
               <h2>Por Que?</h2>
               <p>Se exercitar com regularidade gera diversos benefícios para a saúde física e mental e, além disso, melhora a
@@ -85,6 +100,9 @@ export class Counter extends Component {
                 além de acrescentar vídeos e fotos para servirem de referência
                 para o público PcD se orientar sobre a prática esportiva nesses locais de acordo com as suas necessidades.
               </p>
+            </div>
+            <div className='imgsobre'>
+              <img src={Img5} alt='img5' />
             </div>
           </section>
 

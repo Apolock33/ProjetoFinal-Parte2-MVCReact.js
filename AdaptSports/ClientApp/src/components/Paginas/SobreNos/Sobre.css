@@ -1,261 +1,374 @@
 @media (min-width: 320px) {
-  .textsobrenos h2 {
-    font-family: "organo";
-  }
-  .textsobrenos p {
-    font-family: Montserrat, sans-serif;
-  }
-
-  .textDir {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #36a9e1;
-    margin: 0 30px;
-  }
-  .textDir p {
-    max-width: 800px;
-    text-align: center;
-  }
-
-  .textEsq {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #00d154;
-    margin: 0 30px;
-  }
-  .textEsq p {
-    max-width: 800px;
-    text-align: center;
-  }
-  .squad {
-    display: flex;
+  .DivisorSobre{
+    display:flex;
     align-items: center;
     justify-content: center;
-    font-family: "organo";
-    color: #00d154;
-    margin-bottom: 10px;
+  }
+  .DivisorSobre h1{
+    background:linear-gradient(to right, #36a9e1,#00d154);
+    width:300px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'organo';
+    text-align: center;
   }
 
-  .car {
+  .imgsobre {
+    opacity:0;
+  }
+  .textsobrenos{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    align-items:center;
   }
-  .car div{
-      margin-bottom:20px;
+
+  .textDir{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:#00d154;
+    text-align:center;
+    margin:0 30px;
+  }
+  .textDir h2{
+    font-family: 'organo';
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  .textDir p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+
+  .textEsq{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    color: #36a9e1;
+    margin:0 30px;
+  }
+  .textEsq h2{
+    font-family: 'organo';
+    max-width: 600px;
+  }
+  .textEsq p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+  .squad{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+    color: #36a9e1;
+    font-family:'organo';
+  }
+  .car{
+    display: flex;
+    flex-direction:column;
   }
 }
 
 @media (max-width: 650px) {
-  .textsobrenos h2 {
-    font-family: "organo";
-  }
-  .textsobrenos p {
-    font-family: Montserrat, sans-serif;
-  }
-
-  .textDir {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #36a9e1;
-    margin: 0 30px;
-  }
-  .textDir p {
-    max-width: 800px;
-    text-align: center;
-  }
-
-  .textEsq {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #00d154;
-    margin: 0 30px;
-  }
-  .textEsq p {
-    max-width: 800px;
-    text-align: center;
-  }
-  .squad {
-    display: flex;
+  .DivisorSobre{
+    display:flex;
     align-items: center;
     justify-content: center;
-    font-family: "organo";
-    color: #00d154;
-    margin-bottom: 10px;
+  }
+  .DivisorSobre h1{
+    background:linear-gradient(to right, #36a9e1,#00d154);
+    width:300px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'organo';
+    text-align: center;
   }
 
-  .car {
+  .imgsobre {
+    opacity:0;
+  }
+  .textsobrenos{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    align-items:center;
   }
-  .car div{
-      margin-bottom:20px;
+
+  .textDir{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:#00d154;
+    text-align:center;
+    margin:0 30px;
+  }
+  .textDir h2{
+    font-family: 'organo';
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  .textDir p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+
+  .textEsq{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    color: #36a9e1;
+    margin:0 30px;
+  }
+  .textEsq h2{
+    font-family: 'organo';
+    max-width: 600px;
+  }
+  .textEsq p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+  .squad{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+    color: #36a9e1;
+    font-family:'organo';
+  }
+  .car{
+    display: flex;
+    flex-direction:column;
   }
 }
 
 @media (min-width: 651px) {
-  .textsobrenos h2 {
-    font-family: "organo";
-  }
-
-  .textsobrenos p {
-    font-family: Montserrat, sans-serif;
-  }
-
-  .textDir {
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: #36a9e1;
-    margin: 0 30px;
-  }
-  .textDir p {
-    max-width: 800px;
-    text-align: start;
-  }
-
-  .textEsq {
-    text-align: end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: #00d154;
-    margin: 0 30px;
-  }
-  .textEsq p {
-    max-width: 800px;
-    text-align: end;
-  }
-  .squad {
-    display: flex;
+  .DivisorSobre{
+    display:flex;
     align-items: center;
     justify-content: center;
-    font-family: "organo";
-    color: #00d154;
-    margin-bottom: 10px;
+  }
+  .DivisorSobre h1{
+    background:linear-gradient(to right, #36a9e1,#00d154);
+    width:500px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'organo';
+    text-align: center;
   }
 
-  .car {
+  .imgsobre {
+    opacity:0;
+  }
+  .textsobrenos{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    align-items:center;
   }
-  .car div{
-      margin-bottom:20px;
+
+  .textDir{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:#00d154;
+    text-align:center;
+    margin:0 30px;
+  }
+  .textDir h2{
+    font-family: 'organo';
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  .textDir p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+
+  .textEsq{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    color: #36a9e1;
+    margin:0 30px;
+  }
+  .textEsq h2{
+    font-family: 'organo';
+    max-width: 600px;
+  }
+  .textEsq p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+  .squad{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+    color: #36a9e1;
+    font-family:'organo';
+  }
+  .car{
+    display: flex;
+    flex-direction:column;
   }
 }
 
-@media (min-width: 900px) {
-  .textsobrenos h2 {
-    font-family: "organo";
-  }
-
-  .textsobrenos p {
-    font-family: Montserrat, sans-serif;
-  }
-
-  .textDir {
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: #36a9e1;
-    margin: 0 30px;
-  }
-  .textDir p {
-    max-width: 800px;
-    text-align: start;
-  }
-
-  .textEsq {
-    text-align: end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: #00d154;
-    margin: 0 30px;
-  }
-  .textEsq p {
-    max-width: 800px;
-    text-align: end;
-  }
-  .squad {
-    display: flex;
+@media (max-width: 900px) {
+  .DivisorSobre{
+    display:flex;
     align-items: center;
     justify-content: center;
-    font-family: "organo";
-    color: #00d154;
-    margin-bottom: 10px;
+  }
+  .DivisorSobre h1{
+    background:linear-gradient(to right, #36a9e1,#00d154);
+    width:500px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'organo';
+    text-align: center;
   }
 
-  .car {
+  .imgsobre {
+    opacity:0;
+  }
+  .textsobrenos{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    align-items:center;
   }
-  .car div{
-      margin-bottom:20px;
+
+  .textDir{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:#00d154;
+    text-align:center;
+    margin:0 30px;
+  }
+  .textDir h2{
+    font-family: 'organo';
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  .textDir p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+
+  .textEsq{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    color: #36a9e1;
+    margin:0 30px;
+  }
+  .textEsq h2{
+    font-family: 'organo';
+    max-width: 600px;
+  }
+  .textEsq p {
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    margin-bottom:40px;
+  }
+  .squad{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+    color: #36a9e1;
+    font-family:'organo';
+  }
+  .car{
+    display: flex;
+    flex-direction:column;
   }
 }
 
 @media (min-width: 901px) {
-  .textsobrenos h2 {
-    font-family: "organo";
+  .imgsobre {
+    max-width: 200px;
+    min-width: 200px;
+    margin:0 50px;
+    opacity: 1;
   }
-  .textsobrenos p {
-    font-family: Montserrat, sans-serif;
+  .textsobrenos{
+    display: flex;
+    flex-direction:row;
   }
 
-  .textDir {
-    text-align: start;
+  .textDir{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 50px;
-    color: #36a9e1;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-left:50px;
+    margin-right:80px;
+    color:#00d154;
+    text-align:start;
+    margin-bottom:100px;
+  }
+  .textDir h2{
+    font-family: 'organo';
+    max-width: 600px
   }
   .textDir p {
+    font-family: Montserrat, sans-serif;
     max-width: 800px;
   }
 
-  .textEsq {
-    text-align: end;
+  .textEsq{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: flex-end;
-    color: #00d154;
-    margin-right: 50px;
+    text-align: end;
+    margin-right:50px;
+    margin-left:80px;
+    color: #36a9e1;
+    margin-bottom:100px;
   }
-  .textEsq p {
-    max-width: 800px;
+  .textEsq h2{
+    font-family: 'organo';
+    max-width: 600px;
   }
-  .squad {
+  .squad{
     display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+    font-family:'organo';
+    color:#36a9e1;
+  }
+  .car{
+    display: flex;
+    flex-direction:row;
+    margin-bottom:50px;
+  }
+  
+  .DivisorSobre{
+    display:flex;
     align-items: center;
     justify-content: center;
-    font-family: "organo";
-    color: #00d154;
-    margin-bottom: 20px;
-  }
+  } 
 
-  .car {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-  }
-  .car div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  .DivisorSobre h1{
+    background:linear-gradient(to right, #36a9e1,#00d154);
+    width:800px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    font-family: 'organo';
   }
 }
