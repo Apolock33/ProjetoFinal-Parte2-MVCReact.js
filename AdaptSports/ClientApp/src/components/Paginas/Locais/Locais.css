@@ -1,18 +1,228 @@
-.Modais{
+@media (min-width: 320px) {
+  .Modais {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     margin-top: -42px;
     margin-bottom: 24px;
-
-
-}
-.Alinha{
-   align-items: center;
-}
-.text {
+  }
+  .Alinha {
+    align-items: center;
+  }
+  .text {
     font-family: Montserrat, sans-serif;
     justify-content: center;
     color: #36a9e1;
+    max-width: 400px;
+    margin: 0 20px;
+  }
+  .DivisorLocais {
+    background: linear-gradient(
+      to right,
+      rgba(54, 169, 225, 1),
+      rgba(0, 209, 84, 1)
+    );
+    width: 300px;
+    padding: 15px 0 5px;
+    border-radius: 5px;
+    font-family: "organo";
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cardemodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .CardLocal {
+    display: flex;
+    flex-direction: column;
+  }
+  .Modal {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Modais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -42px;
+    margin-bottom: 24px;
+  }
+  .Alinha {
+    align-items: center;
+  }
+  .text {
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    color: #36a9e1;
+    max-width: 400px;
+    margin: 0 20px;
+  }
+  .DivisorLocais {
+    background: linear-gradient(
+      to right,
+      rgba(54, 169, 225, 1),
+      rgba(0, 209, 84, 1)
+    );
+    width: 300px;
+    padding: 15px 0 5px;
+    border-radius: 5px;
+    font-family: "organo";
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cardemodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .CardLocal {
+    display: flex;
+    flex-direction: column;
+  }
+  .Modal {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 651px) {
+  .Modais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -42px;
+    margin-bottom: 24px;
+  }
+  .Alinha {
+    align-items: center;
+  }
+  .text {
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    color: #36a9e1;
+    max-width: 400px;
+    margin: 0 20px;
+  }
+  .DivisorLocais {
+    background: linear-gradient(
+      to right,
+      rgba(54, 169, 225, 1),
+      rgba(0, 209, 84, 1)
+    );
+    width: 600px;
+    padding: 15px 0 5px;
+    border-radius: 5px;
+    font-family: "organo";
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cardemodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .CardLocal {
+    display: flex;
+    flex-direction: column;
+  }
+  .Modal {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 900px) {
+  .Modais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -42px;
+    margin-bottom: 24px;
+  }
+  .Alinha {
+    align-items: center;
+  }
+  .text {
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    color: #36a9e1;
+    max-width: 400px;
+    margin: 0 20px;
+  }
+  .DivisorLocais {
+    background: linear-gradient(
+      to right,
+      rgba(54, 169, 225, 1),
+      rgba(0, 209, 84, 1)
+    );
+    width: 600px;
+    padding: 15px 0 5px;
+    border-radius: 5px;
+    font-family: "organo";
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cardemodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .CardLocal {
+    display: flex;
+    flex-direction: column;
+  }
+  .Modal {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 901px) {
+  .cardslocais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 150px;
+  }
+  .Modais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -42px;
+    margin-bottom: 24px;
+  }
+  .Alinha {
+    align-items: center;
+  }
+  .text {
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    color: #36a9e1;
+    max-width: 700px;
+    margin: 0 20px;
+  }
+  .DivisorLocais {
+    background: linear-gradient(
+      to right,
+      rgba(54, 169, 225, 1),
+      rgba(0, 209, 84, 1)
+    );
+    width: 800px;
+    padding: 15px 0 5px;
+    border-radius: 5px;
+    font-family: "organo";
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .Modal {
+    margin-bottom: 20px;
+  }
 }
