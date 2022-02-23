@@ -116,7 +116,7 @@ export class Counter extends Component {
         <section className="car">
           <Card
             img={ImgCarlos} 
-            titulo='Carlos Alberto M M Gomes'
+            titulo='Carlos Alberto Martins'
             linkedin='https://www.linkedin.com/in/carlos-alberto-m-m-gomes-868204124/'
             github='https://github.com/Apolock33'
           /><br /><br />
@@ -128,7 +128,7 @@ export class Counter extends Component {
             /><br /><br />
           <Card
             img={ImgEmanuel} 
-            titulo='Tatina Maroto'
+            titulo='Emanuel Cleiton'
             linkedin='https://www.linkedin.com/in/emanuel-cleiton-3273971ab/'
             github='https://github.com/emanuel-cleiton'
             /><br /><br />
@@ -137,19 +137,19 @@ export class Counter extends Component {
         <section className="car">
           <Card
             img={ImgErica} 
-            itulo='Erica Graciano Moreira'
+            titulo='Erica Graciano Moreira'
             linkedin='https://br.linkedin.com/in/erica-graciano-moreira-14216111a'
             github='https://github.com/EricaG12'
           /><br /><br />
           <Card
             img={ImgPatrick} 
-            itulo='Patrick Baldez'
+            titulo='Patrick Baldez'
             linkedin='https://www.linkedin.com/in/patrick-baldez-298064213/'
             github='https://github.com/BaldezPatrick'
           /><br /><br />
           <Card
             img={ImgVictor} 
-            itulo='Victor Persike'
+            titulo='Victor Persike'
             linkedin='https://www.linkedin.com/in/victor-persike-78515b71/'
             github='https://github.com/vcpersike'
             /><br /><br />
