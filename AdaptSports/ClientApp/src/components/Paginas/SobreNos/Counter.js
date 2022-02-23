@@ -1,4 +1,4 @@
-import Card from '../../CardHome/Card';
+import Card from '../../CardSobre/Card';
 import Footer from '../../Footer';
 import React, { Component } from 'react';
 import ImgCarlos from '../../Assets/Img/carlos.jpeg';
@@ -114,15 +114,45 @@ export class Counter extends Component {
 
 
         <section className="car">
-          <Card img={ImgCarlos} /><br /><br />
-          <Card img={ImgTati} /><br /><br />
-          <Card img={ImgEmanuel} /><br /><br />
+          <Card
+            img={ImgCarlos} 
+            titulo='Carlos Alberto M M Gomes'
+            linkedin='https://www.linkedin.com/in/carlos-alberto-m-m-gomes-868204124/'
+            github='https://github.com/Apolock33'
+          /><br /><br />
+          <Card
+            img={ImgTati} 
+            titulo='Tatina Maroto'
+            linkedin='https://www.linkedin.com/in/tatiana-santos-129085222/'
+            github='https://github.com/Tatiana3090'
+            /><br /><br />
+          <Card
+            img={ImgEmanuel} 
+            titulo='Tatina Maroto'
+            linkedin='https://www.linkedin.com/in/emanuel-cleiton-3273971ab/'
+            github='https://github.com/emanuel-cleiton'
+            /><br /><br />
         </section>
 
         <section className="car">
-          <Card img={ImgErica} /><br /><br />
-          <Card img={ImgPatrick} /><br /><br />
-          <Card img={ImgVictor} /><br/><br/>
+          <Card
+            img={ImgErica} 
+            itulo='Erica Graciano Moreira'
+            linkedin='https://br.linkedin.com/in/erica-graciano-moreira-14216111a'
+            github='https://github.com/EricaG12'
+          /><br /><br />
+          <Card
+            img={ImgPatrick} 
+            itulo='Patrick Baldez'
+            linkedin='https://www.linkedin.com/in/patrick-baldez-298064213/'
+            github='https://github.com/BaldezPatrick'
+          /><br /><br />
+          <Card
+            img={ImgVictor} 
+            itulo='Victor Persike'
+            linkedin='https://www.linkedin.com/in/victor-persike-78515b71/'
+            github='https://github.com/vcpersike'
+            /><br /><br />
         </section>
 
         <footer>
