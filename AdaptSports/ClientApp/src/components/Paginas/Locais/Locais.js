@@ -28,16 +28,16 @@ export default class Locais extends Component {
           </h6>
         </div>
         <div className="Carrossel">
-          <Carrossel img1={ImgCarr1} img2={ImgCarr2} img3={ImgCarr3} />
+          <Carrossel img1={ImgCarr1} img2={ImgCarr2} img3={ImgCarr3} /><br/>
         </div>
 
         <div className="DivisorLocais">
           <h1>Descubra</h1>
         </div>
 
-        <div className="cardslocais">
+        <div className="cardslocais" align="center">
 
-          <section className="cardemodal" align='center'>
+          <section className="cardemodal">
             <Card className="CardLocal"
               img={ImgCard1}
               titulo='Add - Associacao Desportiva Para Deficientes' /><br />
@@ -46,7 +46,7 @@ export default class Locais extends Component {
             </div>
           </section>
 
-          <section className="cardemodal" align='center'>
+          <section className="cardemodal">
             <Card className="CardLocal"
               img={ImgCard2}
               titulo='JR-SP | ASSOCIACAO PARADESPORTIVA JR SP' /><br />
@@ -55,7 +55,7 @@ export default class Locais extends Component {
             </div>
           </section>
 
-          <section className="cardemodal" align='center'>
+          <section className="cardemodal">
             <Card className='CardLocal'
               img={ImgCard3}
               titulo='CESEC | CENTRO DE EMANCIPACAO SOCIAL E ESPORTIVA DE CEGOS'
